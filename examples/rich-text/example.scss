@@ -1,0 +1,5 @@
+.article-content {
+  :where(h2) { margin-block: 1.5rem .5rem; }
+  :where(p) { margin-block: 0 1rem; }
+  :where(a) { text-decoration-thickness: .1em; }
+}

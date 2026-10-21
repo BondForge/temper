@@ -1,0 +1,5 @@
+.site-nav {
+  &__links { list-style: none; padding: 0; }
+  &__links[hidden] { display: none; }
+  &__toggle:focus-visible { outline: 2px solid currentColor; }
+}

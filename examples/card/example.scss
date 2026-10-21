@@ -1,0 +1,12 @@
+.card {
+  --card-gap: 1rem;
+  display: grid;
+  gap: var(--card-gap);
+  padding: var(--card-gap);
+  border: 1px solid currentColor;
+
+  &__title { margin: 0; }
+  &__description { margin: 0; }
+  &--compact { --card-gap: .5rem; }
+  &--featured { border-width: 2px; }
+}
